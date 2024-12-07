@@ -1,6 +1,6 @@
 var httpReq = new XMLHttpRequest();
 
-httpReq.open("GET","https://api.weatherapi.com/v1/forecast.json?key=d55ad68be0544f78988140529240612&q=assiut&days=3");
+httpReq.open("GET", "https://api.weatherapi.com/v1/forecast.json?key=d55ad68be0544f78988140529240612&q=assiut&days=3");
 
 httpReq.responseType = "json";
 
