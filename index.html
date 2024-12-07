@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather</title>
+</head>
+<body class="">
+      <nav class="navbar navbar-dark navbar-expand-lg text-white">
+        <div class="container">
+          <div>
+            <img src="images/logo.png" alt="">
+            <a class="navbar-brand" href="#">Weather</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-white">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section id="main" class="pt-5 pb-5">
+        <div class="container w-75 mb-5 d-flex">
+          <input id="cityInput" type="search" class="w-75 form-control me-2" placeholder="Find Your Location....">
+          <button  id="searchBtn" class="btn btn-outline-info">Search</button>
+        </div>
+
+        <div class="container">
+          <div class="card-group rounded row data">
+
+          </div> 
+        </div>  
+      </section>
+
+      <div id="footer" class="bg-dark pt-5 mb-0">
+        <div class="container row d-flex justify-content-center align-items-center">
+          <div class="col-lg-6 mb-3 m-lg-auto d-flex ">
+            <input type="search" class="w-75 form-control me-2" placeholder="Enter Your Email To Subscribe....">
+            <button class="btn btn-outline-info">Subscribe</button>
+          </div>
+
+          <div class="col-lg-6 m-lg-auto pt-lg-2 text-center w-50 d-flex justify-content-around">
+            <div class="contact-icon pt-lg-2 text-center w-25 d-flex justify-content-around">
+              <a href=""><i class="fa-brands fa-facebook fs-3 border border-dark rounded-circle px-3 py-3"></i></a>
+            </div>
+            <div class="contact-icon pt-lg-2 text-center w-25 d-flex justify-content-around">
+              <a href=""><i class="fa-brands fa-twitter fs-3 border border-dark rounded-circle px-3 py-3"></i></a>
+            </div>
+            <div class="contact-icon pt-lg-2 text-center w-25 d-flex justify-content-around">
+              <a href=""><i class="fa-brands fa-google fs-3 border border-dark rounded-circle px-3 py-3"></i></a>
+            </div>
+            <div class="contact-icon pt-lg-2 text-center w-25 d-flex justify-content-around">
+              <a href=""><i class="fa-brands fa-pinterest fs-3 border border-dark rounded-circle px-3 py-3"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="w-100 mb-5 d-flex align-items-center">
+          <p class="text-white mt-5 w-75 m-auto fs-6">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+      </div>
+
+    <script src="js/index-2.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
