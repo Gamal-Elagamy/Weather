@@ -60,7 +60,7 @@ function fetchWeatherData(city) {
   
   var apiKey = "d55ad68be0544f78988140529240612"; 
   
-  var apiUrl = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=3`;
+  var apiUrl = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=3`;
 
   httpReq.open("GET", apiUrl);
 
