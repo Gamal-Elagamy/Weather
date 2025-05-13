@@ -11,10 +11,12 @@ Check out the live app here: [Weather App](https://gamal-elagamy.github.io/Weath
 - Display three-day weather forecasts.
 - Interactive and responsive user interface.
 - Real-time weather data fetched from a reliable API.
+- Built with **Bootstrap** for a responsive and modern design.
 
 ## Technologies Used
 - **HTML**: For structuring the application.
 - **CSS**: For styling the user interface.
+- **Bootstrap**: For responsive layout and UI components.
 - **JavaScript**: For interactivity and API integration.
 - **Weather API**: To fetch accurate weather data.
 
